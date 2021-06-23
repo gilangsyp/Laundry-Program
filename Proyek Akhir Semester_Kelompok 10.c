@@ -9,7 +9,7 @@
 		PROGRAM LAUNDRY GDVM
 */
 
-#include <stdio.h>		//library
+#include <stdio.h>		//library yang digunakan
 #include <stdlib.h>
 #include <conio.h>
 #include <string.h>
