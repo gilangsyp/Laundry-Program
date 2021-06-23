@@ -618,7 +618,7 @@ int hapusExtra()		//function untuk menghapus file data extra
             printf(" Data tidak jadi dihapus");
             printf("\n\npress any key to continue . . . .");
         }
-		else //user memasukkan selain Y/y/T/t
+		else //user memasukkan selain huruf Y/y/T/t
         {
 			return hapus(); //kembali ke menu hapus, input kembali
 	        printf(" Input Salah\n Silahkan Ulang");
