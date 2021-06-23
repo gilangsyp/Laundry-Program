@@ -604,7 +604,7 @@ int hapusExtra()		//function untuk menghapus file data extra
 		printf("||==========                    Masukkan T / t untuk TIDAK              ==========||\n");
 		printf("||================================================================================||\n");
 		printf("\n Silahkan masukkan pilihan anda = ");
-        fflush(stdin);
+        fflush(stdin);//membersihkan memori dari output sebelumnya
         a=getchar();
         if(a=='y' || a=='Y') //jika menjawab Ya (Y/y)
 		{
